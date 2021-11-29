@@ -1,0 +1,21 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: auto;
+    background-color: rgba($color: $color_white, $alpha: .8);
+    ul{
+        list-style: none;
+        display: flex;
+        a{
+            text-decoration: none;
+            color: $color_grey;
+            display: block;
+            padding: 20px;
+        }
+        a:hover{
+            color:$color_red;
+       
+        }
+    }
+}

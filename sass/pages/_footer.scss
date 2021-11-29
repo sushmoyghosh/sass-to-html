@@ -1,0 +1,39 @@
+.footer{
+    padding: 80px 0;
+    background-color: $color_grey;
+    color: $color_white;
+
+    
+}
+
+.social_icon{
+    list-style-type: none;
+    display: flex;
+
+    li{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        background-color: $color_black;
+        margin-right: 20px;
+        transition: .4s all;
+
+        &:hover{
+            background-color: $color_red;
+            color: $color_white;
+        }
+    }
+
+}
+
+.list-inline{
+   list-style-type: none;
+   display: flex;
+   
+   li{
+       margin-right: 20px;
+   }
+}

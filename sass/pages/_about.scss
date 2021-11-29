@@ -1,0 +1,31 @@
+.about_header{
+    text-align: center;
+    padding-bottom: 20px;
+    
+    span{
+        color:$color_red;
+    }
+    
+}
+.about_text{
+    width: 50%;
+    float: left;
+    text-align: left;
+   
+        span{
+            color:$color_red;
+        }
+    
+    p{
+        line-height: 30px;
+        color: $color_grey;
+    }
+    
+}
+
+.about_img{
+    width: 10%;
+    float: left;
+   
+   
+}

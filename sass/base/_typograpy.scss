@@ -1,0 +1,39 @@
+
+.line_space{
+    line-height: 40px;
+}
+.margin-top{
+    margin-top: 20px;
+}
+.margin-bottom{
+    margin-bottom: 20px;
+}
+.margin{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+h2{
+    text-transform: uppercase;
+    color: $color_grey;
+    font-size: 33px;
+}
+h4{
+    padding-top: 20%;
+    padding-bottom: 20px;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+h1{
+    font-family: "Merienda";
+    color:$color_white;
+    font-size: 100px;
+    font-weight: bold;
+}
+h5{
+        
+    font-family: "Merienda";
+    color: $color_red;
+    font-size: 33px;
+}
